@@ -1,0 +1,64 @@
+header{
+	
+}
+body {
+	background-color: #f5dcdc;
+	background: linear-gradient(#f5dcdc, #f4bebe);
+	font-size: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    overflow: hidden;
+    background-color: #000080;
+    border: 1px solid  #000080;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+li a:hover {
+    background-color: #C71585;
+   
+
+}
+h1 a.nome {
+	font-size: 24px;
+}
+.sobre{
+	padding: 74px 86px;
+	text-align: center;
+	background-color: #C71585;
+	color: white;
+	margin-top: 8px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.portifolio{
+	padding: 74px 86px;
+	text-align: center;
+	background-color: #f5dcdc;
+	color: black;
+	margin-top: 8px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.col-lg-4{
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 20px;
+	font-weight: 50px;
+}
+img{
+	border-radius: 20px;
+}
