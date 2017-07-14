@@ -1,5 +1,7 @@
 header{
-	
+	text-align: center;
+  background: #18BC9C;
+  color: white;
 }
 body {
 	background-color: #f5dcdc;
@@ -27,9 +29,10 @@ li a {
     text-transform: uppercase;
     font-weight: bold;
 }
-li a:hover {
+.menu li a:hover {
     background-color: #C71585;
-   
+    height: 10px;
+
 
 }
 h1 a.nome {
@@ -62,3 +65,9 @@ h1 a.nome {
 img{
 	border-radius: 20px;
 }
+
+footer .container {
+	position: relative;
+	
+}
+
