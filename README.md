@@ -1,2 +1,2 @@
-# http://jessikraujjo.github.io/
+# http://jessikrraujjo.github.io/
 Site Pessoal
