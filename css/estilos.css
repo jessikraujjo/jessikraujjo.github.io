@@ -224,4 +224,37 @@ footer{
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff !important;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 0.125rem solid #dee2e6;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio {
+  margin-bottom: -30px;
+}
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
 
