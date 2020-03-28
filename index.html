@@ -1,138 +1,578 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Site Pessoal</title>
-		<link  rel="stylesheet" type="text/css" href="css/estilos.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	</head>
-	<body>
-		<header id="header">
-			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-			    
-			    <ul class="nav navbar-nav">
-			      <li><a class="nome">Jéssica Araújo<span class="glyphicon glyphicon-home"></span></a></li>
-			      <div class="menu">
-			      		<li style="float:right"><a href="#contato">Contatos</a></li>
-				      <li style="float:right"><a href="#sobre">Sobre</a></li>
-				      <li style="float:right"><a href="#portifolio">Portifólio</a></li>
-			      </div>
-			    </ul>
-			  </div>
-			</nav>
-			<section class="sobre" >
-				<div class="container" >
-					<figure>
-						<img src="img/jeh.png" alt="jeh">
-						
-					</figure>
-					<div class="col-lg-4">
-						<p><h1>Desenvolvimento de Sistemas</h1></p>
-					</div>
-				
-				</div>
-			</section>
-		</header><!-- /header -->
-		
-		<section id="portifolio" class="portifolio">
-			
-			<div class=" container ">
-				<h1>Portifólio</h1>
-				<!--<h2><a href="http://sistemas3.uespi.br/SIDDD/index.npd">Sistema de Cadastros</a></h2>-->
-				<h2><a href="https://github.com/jessikraujjo">Projetos</a></h2>
-			</div>  	
-				
-		</section>
-		
-		<div class=" container ">
-			<section id="sobre" class="sobre">
-				<h1>Sobre</h1>
-				<figure>
-					<img src="img/jeh.png" alt="jeh">
-					
-				</figure>
-				<div class="col-lg-4">
-					<p>Graduada em Ciência da Computação, pela Universidade Estadual do Piauí,
-					experiência com desenvolvimento de sistemas, conhecimentos de JAVA, PHP, Python, HTML, CSS, JS, Controle de versões GITHUB ...</p>
-				</div>
-				
-			</section>
-		</div>
-		
-		<section id="contato" class="contact">
-	        <div class="container-contato">
-	            <div class="row">
-	                <div class="col-lg-12 text-center">
-	                    <h2>Deixe seu Contato</h2>
-	                    <hr class="star-primary">
-	                </div>
-	            </div>
-	            <div class="row">
-	                <div class="col-lg-8 col-lg-offset-2">
-	                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-	                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-	                    <form action="#" method="post">
-	                        <div class="row control-group">
-	                            <div class="form-group col-xs-12 floating-label-form-group controls">
-	                                <label for="name">Nome</label>
-	                                <input type="text" class="form-control" placeholder="Nome" id="name" name="name">
-	                                <p class="help-block text-danger"></p>
-	                            </div>
-	                        </div>
-	                        <div class="row control-group">
-	                            <div class="form-group col-xs-12 floating-label-form-group controls">
-	                                <label for="email">Email</label>
-	                                <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-	                                <p class="help-block text-danger"></p>
-	                            </div>
-	                        </div>
-	                        <div class="row control-group">
-	                            <div class="form-group col-xs-12 floating-label-form-group controls">
-	                                <label for="phone">Número de Telefone</label>
-	                                <input type="tel" class="form-control" name="phone" placeholder="Número de Telefone" id="phone" >
-	                                <p class="help-block text-danger"></p>
-	                            </div>
-	                        </div>
-	                        <div class="row control-group">
-	                            <div class="form-group col-xs-12 floating-label-form-group controls">
-	                                <label for="message">Mensagem</label>
-	                                <textarea rows="5" class="form-control" name="message" placeholder="Mensagem" id="message" ></textarea>
-	                                <p class="help-block text-danger"></p>
-	                            </div>
-	                        </div>
-	                        <br>
-	                        <div id="success">
-		                        <div class="row">
-		                            <div class="form-group col-xs-12">
-		                                <button type="submit" class="btn btn-success btn-lg" disabled>Enviar</button>
-		                            </div>
-		                        </div>
-	                        </div>
-	                    </form>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
-		<footer>
-			<div class="container">
-				<ul class="social">
-					<li><a href="https://www.facebook.com/jhessy.araujo.14"><img src="img/facebook.png" alt=""></a></li>
-					<li><a href="https://twitter.com/jhessy_kraujo"><img src="img/twitter.png" alt=""></a></li>
-					<li><a href="https://plus.google.com/+jessicaaraujo23"><img src="img/googleplus.png" alt=""></a></li>
+<html lang="en">
 
-				</ul>
-			</div>
-		</footer>
-		<!-- BEGIN JIVOSITE CODE {literal} -->
-			<script type='text/javascript'>
-			(function(){ var widget_id = 'yKVWeVu7AU';var d=document;var w=window;function l(){
-			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; 
-			s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')
-			[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent)
-			{w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-		<!-- {/literal} END JIVOSITE CODE --> 	
-	</body>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Portifolio - Jessica Araujo</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Jéssica Araújo</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Bem vindo ao meu Portifólio!</div>
+        <div class="intro-heading text-uppercase">Prazer em conhecê-lo</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Me Conte Mais</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Serviços</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Back-End</h4>
+          <p class="text-muted">Criação de APIs, camada de segurança, integração com banco de dados e integração de webservices</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Front-End</h4>
+          <p class="text-muted">Criação de Interfaces com interações entre elementos das paginas e integração de webservices </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-mobile fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Mobile</h4>
+          <p class="text-muted">Criação de aplicações Nativas usando React Native com ReactJS e integração de webservices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Portfólio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/01-frontAircnc.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Front-End</h4>
+            <p class="text-muted">ReactJS, Node.js</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/02-frontjava.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema FrontEnd</h4>
+            <p class="text-muted">Angular 8, JAVA</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/03-backjava.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema BackEnd</h4>
+            <p class="text-muted">API RestFull, JAVA</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/04-mobileHero.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Mobile</h4>
+            <p class="text-muted">Node.js, React Native, ReactJS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/05-frontHero.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Front-End</h4>
+            <p class="text-muted">ReactJS, Node.js</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/06-backHero.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sistema Back-End</h4>
+            <p class="text-muted">API RestFull, Node.js</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Sobre</h2>
+          <h3 class="section-subheading text-muted">Cientista da Computação e Engenheira de Software</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/1.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2012-2016</h4>
+                  <h4 class="subheading">Graduação</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Minha graduação foi em Ciências da Computação pela Universidade Estadual do Piauí </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/perfil.jpeg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2015-2017</h4>
+                  <h4 class="subheading">Desenvolvimento Web</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Desenvolvimento e manutenção de software instucional da Universidade Estadual do Piauí.
+                    Utilizei ferramentas como, Java, PHP, HTML, CSS, JavaScript, ​Hibernate, PrimeFaces, MySQL...</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018-2019</h4>
+                  <h4 class="subheading">Analista de Sistemas</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Desenvolvimento e manutenção de sistemas de Notas Fiscais Avulsas, 
+                    na Sefaz-PI. Utilizei ferramentas como Java, HTML, CSS, JS, ​Hibernate, PrimeFaces, GitLab, Bancos Oracle e SQLServer, ... </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/4.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018</h4>
+                  <h4 class="subheading">Engenheira de Software</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Pós-graduação em Engenharia de Software pela Estácio de Sá.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/5.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Hoje</h4>
+                  <h4 class="subheading">Desenvolvedora Full Stack</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Criação de Sistemas Back-End, como  APIs em Java e Node. Sistemas Front-End usando Angular e ReactJS.
+                    Aplicações Mobiles em React Native.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Faça Parte
+                  <br>da Minha
+                  <br>História!</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-light page-section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/about/perfil.jpeg" alt="">
+            <h4>Jéssica Araújo</h4>
+            <p class="text-muted">Programadora Web</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/jhessy_kraujo">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/jhessy.araujo.14">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/jessikraujjo/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+		  <span class="copyright">Copyright &copy; Site Pessoal 2020. </span>
+		  
+        </div>
+        <div class="col-md-4">
+          Com ❤ Jéssica Araújo
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Política de Privacidade </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Termos de Uso</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">AirCnc</h2>
+                <p class="item-intro text-muted">Projeto em ReactJS e React Native</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-frontAircnc-full.png" alt="">
+                <p>Aplicação onde Empresas podem alocar espaço e infraestrutura para programadores. Os programadores podem agendar uma data para a visita.</p>
+                <ul class="list-inline">
+                  <li>Data: Fevereiro 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/AirCnc">React</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Front-End</h2>
+                <p class="item-intro text-muted">Projeto em Angular</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-frontjava-full.png" alt="">
+                <p>Esse projeto possui: Cadastros, Listagens, Atualizações e Remoções de usuários. Utilizando tecnologias Spring, Rest, Angular 8, assim como, serviços de seguraça, como o JWT, para autentição no sistema</p>
+                <ul class="list-inline">
+                  <li>Data: Outubro 2019</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Spring-api-rest-frontend">Angular Spring</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Back-End</h2>
+                <p class="item-intro text-muted">Projeto em Java</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-backjava-full.png" alt="">
+                <p>Esse projeto possui: Cadastros, Listagens, Atualizações e Remoções de usuários. Utilizando tecnologias Spring, Rest, assim como, serviços de seguraça, como o JWT, para autentição no sistema</p>
+                <ul class="list-inline">
+                  <li>Data: Outubro 2019</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Spring-API-REST">Spring API</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Mobile</h2>
+                <p class="item-intro text-muted">Projeto de Ajuda a ONGs</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-mobileHero-full.png" alt="">
+                <p>Esse projeto possui: Listagem de Casos cadastrados pelas ONGs e o usuário pode escolher qual ajudar. Usa as tecnologias Node.js, ReactJS, e React Native. É alimentado por uma API própria e integrado com Front-End ambos listados no portfólio</p>
+                <ul class="list-inline">
+                  <li>Data: Março 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Be-the-Hero">React Native</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Front-End</h2>
+                <p class="item-intro text-muted">Be The Hero</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-frontHero-full.png" alt="">
+                <p>Esse projeto possui: Cadastros e Listagens de ONGs e de casos para serem ajudados. Integrado com a API própria desenvolvida em node.js e com a parte Mobile, listada no portfólio.</p>
+                <ul class="list-inline">
+                  <li>Data: Março 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Be-the-Hero">ReactJS</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sistema Back-End</h2>
+                <p class="item-intro text-muted">Be The Hero</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-backHero-full.png" alt="">
+                <p>Esse projeto é uma Api com: Cadastros e Listagens de ONGs e de casos para serem ajudados. Integrado com Front-End desenvolvida em ReactJS e com a parte Mobile, listada no portfólio.</p>
+                <ul class="list-inline">
+                  <li>Data: Março 2020</li>
+                  <li>Link do projeto -> <a href="https://github.com/jessikraujjo/Be-the-Hero">Node.JS</a></li>
+                  <li>Categoria: Full Stack</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Fechar Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
 </html>
-
